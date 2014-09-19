@@ -70,7 +70,7 @@ Additionally, learn how to install different packages with [Package Control] (ht
 
 ###Intro to Ruby  
 
-#####Online Resources For Learning Ruby
+#####Online Resources For Learning Ruby:
 
 [rubylearning.com] (http://rubylearning.com/satishtalim/tutorial.html)
 
@@ -82,6 +82,6 @@ Here are some 61A-type questions that you can try in ruby!
 
 1. Given a circular list of integers (when you reach the end of the list you come back to the beginning), what is the most efficient algorithm to find the smallest integer in the list? For example: circular_list = [22, 52, 66, 82, 5, 8, 12, 19].
 2. Implement a function which checks whether a number is a palindrome or not
-3. In an array 1-100 many numbers are duplicates, how do you find it? Read more: http://javarevisited.blogspot.com/2011/06/top-programming-interview-questions.html#ixzz3DjzvJEbo
-4. How do you find second highest number in an integer array? Read more: http://javarevisited.blogspot.com/2011/06/top-programming-interview-questions.html#ixzz3DjzxWthZ
+3. In an array 1-100 many numbers are duplicates, how do you find it?
+4. How do you find second highest number in an integer array?
 5. Implement a function that returns the nth fibonacci number.
