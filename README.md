@@ -13,7 +13,9 @@ hw0 will cover:
   * If your terminal is basically black and white, there is a better way! Make things easier for yourself, and for us to help you.
 4. Text Editor Stuff
   * If you are using Sublime, Vim, or Emacs, learn about how to edit files easily!
-5. Intro to Ruby
+5. What is Vagrant and Why Are We Using It?
+  * And also how to make the most of it
+6. Intro to Ruby
   * Before learning the Rails web framework, learn more about the language you are developing in.
 
 ###Basic Unix Commands  
@@ -67,6 +69,14 @@ There are many different ways to edit files; some people tell you to use Vim or 
 [How to open all files and their subdirectories with Sublime from your terminal] (http://stackoverflow.com/questions/16199581/opening-sublime-text-on-command-line-as-subl-on-mac-os)
 
 Additionally, learn how to install different packages with [Package Control] (https://sublime.wbond.net/installation). It's a great way to get ruby-specific and rails-specific packages for your text editor. Sublime also supports adding vim bindings, so if you are a huge vim fan, look into sublime!
+
+###What is Vagrant and Why Are We Using It?
+[Vagrant](http://www.vagrantup.com/) allows you to run a virtual machine on your computer. The virtual machine is actually running on Virtualbox, but Vagrant provides a nice interface to it through the terminal. The reason we make this option available to you is to reduce a lot of issues with differences in development environments (OS, Ruby versions, gems, etc.).
+
+When you run ```vagrant up```, a virtual machine running Ubuntu 12.04 is started. Subsequently runnning ```vagrant ssh``` gives you access to the machine just like ssh'ing into a lab computer!
+
+_Protip:_ The folder you ran ```vagrant up``` in (```rails-dev-box``` by default) is synced to the `/vagrant/` directory on the Vagrant machine! You can edit your files on your host computer using your editor and configuration of choice and run Ruby/Rails commands on the virtual machine.
+
 
 ###Intro to Ruby  
 
