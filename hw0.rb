@@ -8,7 +8,6 @@
 def problem1(string, n)
 
   # YOUR CODE HERE
-  return string.length > n
 
 end
 
