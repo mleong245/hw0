@@ -52,7 +52,7 @@ def error(problem, test)
   " did not pass test " + test.to_s
 end
 
-puts "Running unit tests..."
+puts "\nRunning unit tests... \n "
 
 puts error(1,1) unless problem1('hi', 1) == true
 puts error(1,2) unless problem1('derp',5) == false
@@ -63,8 +63,9 @@ puts error(2,2) unless problem2('hello',10) == 'hello'
 words = ['Wow','I','am','so','good','at','Ruby!']
 puts error(3,1) unless problem3(words) == 'Wow I am so good at Ruby!'
 
-ints = [1,3,5,7,6,4,8,9,15]
-puts error(4,1) unless problem4(ints) == 9
-ints = [1,1,1,1,1,1,3,3,3]
-puts error(4,2) unless problem4(ints) == 1
-
+if defined? problem4
+  ints = [1,3,5,7,6,4,8,9,15]
+  puts error(4,1) unless problem4(ints) == 9
+  ints = [1,1,1,1,1,1,3,3,3]
+  puts error(4,2) unless problem4(ints) == 1
+end
