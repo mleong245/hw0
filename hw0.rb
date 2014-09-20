@@ -42,7 +42,7 @@ end
 ########################################################
 ###              TEST CASES ARE BELOW                ###
 ###             TO RUN THE TESTS, TYPE:              ###
-###        'ruby hw0.py' INTO YOUR TERMINAL          ###
+###        'ruby hw0.rb' INTO YOUR TERMINAL          ###
 ########################################################
 ###      DO NOT EDIT ANYTHING BELOW THIS LINE        ###
 ########################################################
